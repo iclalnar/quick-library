@@ -52,4 +52,29 @@
 | Sprint | Kapsam | Tahmini Süre |
 |--------|--------|--------------|
 | **Sprint 1** | Kullanıcı kayıt/giriş sistemi + profil yapısı | 1 hafta |
-| **Sprint 2** | İçerik paylaşımı ve görüntüleme modülü | 1 ha
+| **Sprint 2** | İçerik paylaşımı ve görüntüleme modülü | 1 hafta |
+| **Sprint 3** | AI öneri motoru entegrasyonu | 1 hafta |
+| **Sprint 4** | Etkileşim (beğeni, yorum) + test & bug fix | 1 hafta |
+
+> **Toplam süre:** 4 hafta
+
+---
+
+## 🎯 5. MVP Başarı Kriterleri
+
+- ✅ En az 10 farklı kullanıcıdan içerik paylaşımı alınması
+- ✅ AI önerilerinin %50'sinin kullanıcı tarafından paylaşılabilir bulunması
+- ✅ İçerik etkileşimi (beğeni, yorum) oranının %20'den yüksek olması
+- ✅ İlk kullanıcı geri bildirimlerine göre V2 için analiz yapılması
+
+---
+
+## 📎 Ekstra Not
+
+MVP aşaması tamamlandığında şu geliştirmeler planlanabilir:
+- Kulüp sistemi
+- Etkinlik modülü
+- Bildirim ve hatırlatıcılar
+- Sosyal medya ile giriş
+- Gelişmiş moderasyon ve AI içerik analizi
+
