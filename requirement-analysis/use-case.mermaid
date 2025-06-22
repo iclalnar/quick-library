@@ -1,0 +1,60 @@
+%%{init: {'theme': 'default'}}%%
+%% Use Case Diagram for Quick-library
+graph TD
+  actor1((Kullanıcı))
+  actor2((Admin))
+  actor3((Moderatör))
+  actor4((Yapay Zeka API))
+
+  subgraph User Use Cases
+    A1[Giriş Yap / Kayıt Ol]
+    A2[Profilini Oluştur / Güncelle]
+    A3[Ruh Haline Göre İçerik Gör]
+    A4[AI'dan Öneri Al]
+    A5[İçerik Paylaş (Kitap, Film, Söz vb.)]
+    A6[İçerik Görüntüle]
+    A7[İçeriği Puanla / Fikir Geliştir / Yorum Yap]
+    A8[Kulübe Katıl / Kulüp Oluştur]
+    A9[Etkinlik Oluştur / Katıl]
+    A10[İçerik Raporla]
+  end
+
+  subgraph Admin Use Cases
+    B1[Tüm Kullanıcıları Yönet]
+    B2[Tüm İçerikleri Kaldır / Denetle]
+    B3[Etkinlikleri ve Kulüpleri Yönet]
+    B4[Sistem Ayarlarını Güncelle]
+  end
+
+  subgraph Moderatör Use Cases
+    C1[Raporlanan İçerikleri İncele]
+    C2[İçerik Gizle / Susturma Yetkisi Kullan]
+  end
+
+  subgraph AI Use Cases
+    D1[Prompt Al]
+    D2[Motivasyonel Yanıt Oluştur]
+  end
+
+  actor1 --> A1
+  actor1 --> A2
+  actor1 --> A3
+  actor1 --> A4
+  actor1 --> A5
+  actor1 --> A6
+  actor1 --> A7
+  actor1 --> A8
+  actor1 --> A9
+  actor1 --> A10
+
+  actor2 --> B1
+  actor2 --> B2
+  actor2 --> B3
+  actor2 --> B4
+
+  actor3 --> C1
+  actor3 --> C2
+
+  A4 --> D1
+  D1 --> D2
+  actor4 --> D2
